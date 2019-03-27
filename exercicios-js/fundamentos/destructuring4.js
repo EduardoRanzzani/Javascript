@@ -1,5 +1,5 @@
 function rand([min = 0, max = 1000]) {
-    if (min > max){
+    if (min > max) {
         [min, max] = [max, min]
     }
 
@@ -9,6 +9,6 @@ function rand([min = 0, max = 1000]) {
 
 console.log(rand([50, 40]))
 console.log(rand([992]))
-console.log(rand([,10]))
+console.log(rand([, 10]))
 console.log(rand([]))
 //console.log(rand())

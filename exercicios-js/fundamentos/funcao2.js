@@ -1,5 +1,5 @@
 // Armazendnao uma funcao em uma variável
-const imprimirSoma = function (a, b){
+const imprimirSoma = function (a, b) {
     console.log(a + b)
 }
 

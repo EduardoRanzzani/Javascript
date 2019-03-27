@@ -26,7 +26,7 @@ console.log(!!undefined)
 console.log(!!(isAtivo = false))
 
 console.log('pra finalizar...')
-console.log(!!(''|| null || 0 || ' '))
+console.log(!!('' || null || 0 || ' '))
 
 let nome = ''
 console.log(nome || 'Desconhecido')
