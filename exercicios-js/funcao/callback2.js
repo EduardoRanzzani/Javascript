@@ -11,7 +11,7 @@ for (let i in notas) {
 console.log(notasBaixas1)
 
 // com callback
-const notasBaixas2 = notas.filter(function(nota){
+const notasBaixas2 = notas.filter(function (nota) {
     return nota < 7
 })
 
